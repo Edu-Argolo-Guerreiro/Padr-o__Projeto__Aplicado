@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    background-color: rgba(33, 45, 71, 1);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    flex-direction: row;
+    line-height: 10px;
+}
+
+.title img{
+    height: 5vh;
+    width: 5vw;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(147, 104, 112);
+    transition: 0.4s all;
+}
+
+.constellation__btn{
+    border: 2px solid rgb(147, 104, 112);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.constellation__btn:hover{
+    background-color: rgb(147, 104, 112);
+    color: white;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 52px;
+    line-height: 10px;
+    font-weight: 800;
+}
+
+span{
+    color: rgba(112, 57, 68, 1);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    color: whitesmoke;
+}
+
+img{
+    width: 40vw;
+    height: 60vh;
+    padding-left: 10vw;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: rgba(112, 57, 68, 1);
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
